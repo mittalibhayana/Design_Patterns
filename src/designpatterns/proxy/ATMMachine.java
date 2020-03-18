@@ -31,7 +31,6 @@ public class ATMMachine implements GetATMData{
 	@Override
 	public int getCashInMachine() {
 		return 60000;
-		return 0;
 	}
 	
 }
