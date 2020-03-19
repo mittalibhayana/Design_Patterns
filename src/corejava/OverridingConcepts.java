@@ -9,11 +9,10 @@ public void methoda() {
 	
 }
 }
-
-
-class B extends OverridingConcepts{
+class nested extends OverridingConcepts{
 	
 	public void methoda(int x)  {
 		System.out.println("bazooka");
 	}
 }
+
