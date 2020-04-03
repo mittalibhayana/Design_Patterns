@@ -2,23 +2,15 @@ package corejava;
 
 public class Inheritance extends MapPractise {
 	
-	static final  void test() {
-		System.out.println("hi, i am in test");
+	public  static void test() {
+		System.out.println("inheritance");
 	}
-	
-	static final void test(int a) {
-		System.out.println("yippe");
-	}
-public  Inheritance() {
-	System.out.println("yolo");
+
+public static void main(String[] args) {
+	MapPractise map = new Inheritance();
+	char[] arr = new char[]{'a','b','c','c'};
+	System.out.println(arr);
+	//map.test();
 }
 
-class sub extends Inheritance{
-	
-	
-}
-	
-	public static void main(String[] args) {
-		new Inheritance();
-	}
 }

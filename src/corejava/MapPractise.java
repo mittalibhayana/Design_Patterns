@@ -8,6 +8,10 @@ public class MapPractise {
 	public MapPractise() {
 		System.out.println("helo");
 	}
+	
+	public static void test() {
+		System.out.println("super");
+	}
 
 	public static void main(String[] args) {
 		HashMap<Employee, Integer> map = new HashMap<>();
